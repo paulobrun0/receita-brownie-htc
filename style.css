@@ -1,0 +1,160 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box,
+.info-box-description-ingredients,
+.info-box-description-method-of-preparation,
+.info-box-description-additional-information {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.title {
+  color: #ff6a2b;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #61656d;
+  margin-top: 8px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 14px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.info-box-list,
+.info-box-list-woman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 11px;
+  background-color: #f0f0f0;
+}
+
+.info-box-title,
+.info-box-title-description {
+  text-transform: uppercase;
+  color: #61656d;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.info-box-title-description {
+  color: #ff6a28;
+  font-weight: 700;
+}
+
+.info-box-list-woman {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-woman {
+  padding-right: 19px;
+}
+
+.info-box-list-woman-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box-description-ingredients,
+.info-box-description-method-of-preparation,
+.info-box-description-additional-information {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-ingredients {
+  display: flex;
+  justify-content: center;
+}
+
+.avental {
+  padding-right: 8px;
+}
+
+.ingredients {
+  padding-right: 307px;
+}
+
+.nav-ingredients {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+
+.nav-ingredients .list-ingredients {
+  list-style: disc;
+  color: #61656d;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.info-box-description-method-of-preparation .ingredients {
+  padding: 0;
+}
+
+.info-box-description-method-of-preparation .nav-ingredients .list-ingredients {
+  list-style: decimal;
+  padding-bottom: 20px;
+}
+
+.break-text {
+  max-width: 725px;
+}
+
+.info-box-description-additional-information {
+  color: #61656d;
+}
+
+.title-additional-information {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+.title-additional-information h2 {
+  padding: 8px;
+  color: #61656d;
+}
+
+.info-box-description-additional-information-content {
+  padding-top: 20px;
+}
+.nav-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-content {
+  max-width: 745px;
+  line-height: 18px;
+}
